@@ -52,5 +52,15 @@ public class Kernel {
       }
     }
   }
+void keyPressed() {
+  if (key == CODED) {
+    if (keyCode == LEFT) {
+      currentKernel--;
+    }
+    else if (keyCode == RIGHT) {
+      currentKernel++;
+    }
+  }
+} 
 
 }
